@@ -1,0 +1,13 @@
+CLASE Operaciones {
+    ENTERO suma(ENTERO a, ENTERO b) {
+        RETORNAR a + b;
+    }
+
+    REAL dividir(REAL x, REAL y) {
+        SI (y != 0) {
+            RETORNAR x / y;
+        } SINO {
+            RETORNAR 0.0;
+        }
+    }
+}

@@ -1,0 +1,14 @@
+CLASE Test {
+    ESTATICO VACIO metodo() {
+        ENTERO x = 5
+        IMPRIMIR("Falta punto y coma");
+        
+        SI (x < 10 {
+            IMPRIMIR("Falta paréntesis de cierre");
+        }
+        
+        MIENTRAS ) {
+            IMPRIMIR("Paréntesis incorrecto");
+        }
+    }
+}

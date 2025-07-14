@@ -1,0 +1,19 @@
+CLASE Calculadora {
+    ESTATICO ENTERO suma(ENTERO a, ENTERO b) {
+        RETORNAR a + b;
+    }
+    
+    ESTATICO REAL division(REAL x, REAL y) {
+        SI (y != 0) {
+            RETORNAR x / y;
+        } SINO {
+            RETORNAR 0.0;
+        }
+    }
+    
+    ESTATICO VACIO principal() {
+        ENTERO resultado = suma(5, 3);
+        IMPRIMIR("Resultado: ");
+        IMPRIMIR(resultado);
+    }
+}

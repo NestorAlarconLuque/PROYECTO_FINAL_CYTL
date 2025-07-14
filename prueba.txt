@@ -1,0 +1,9 @@
+CLASE Ejemplo{
+    ENTERO numero;
+    ESTATICO VACIO principal() {
+        numero = 10;
+        IMPRIMIR("El numero es:");
+        IMPRIMIR(numero);
+        RETORNAR;
+    }
+}

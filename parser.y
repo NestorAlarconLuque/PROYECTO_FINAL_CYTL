@@ -149,7 +149,7 @@ factor : NUMERO
 %%
 
 void yyerror(const char *s) {
-    fprintf(stderr, "Error sintáctico en línea %d: %s\n", line_num, s);
+    fprintf(stderr, "Error sintactico en linea %d: %s\n", line_num, s);
     exit(1);
 }
 
@@ -163,7 +163,7 @@ int main(int argc, char *argv[]) {
     }
     
     if (yyparse() == 0) {
-        printf("El análisis sintáctico fue exitoso.\n");
+        printf("El analisis sintactico fue exitoso.\n");
     }
     
     if (argc > 1) {

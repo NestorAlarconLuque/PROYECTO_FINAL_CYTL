@@ -1,0 +1,7 @@
+CLASE Principal {
+    ENTERO[] lista = NUEVO ENTERO[10];
+    PARA (ENTERO i = 0; i < 10; i = i + 1) {
+        lista[i] = i * 2;
+    }
+    IMPRIMIR "Ciclo terminado";
+}

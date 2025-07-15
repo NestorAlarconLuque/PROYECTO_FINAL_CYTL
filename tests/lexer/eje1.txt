@@ -1,0 +1,4 @@
+CLASE Principal {
+    ENTERO x = 5;
+    IMPRIMIR x;
+}
